@@ -1,0 +1,3 @@
+<?php
+//000000000000a:17:{s:2:"id";s:1:"1";s:5:"title";s:12:"奶油草莓";s:5:"price";s:4:"0.01";s:7:"content";s:0:"";s:5:"cover";s:1:"5";s:4:"imgs";s:1:"5";s:9:"inventory";s:2:"10";s:7:"shop_id";s:1:"1";s:7:"is_show";s:1:"1";s:10:"sale_count";s:1:"0";s:12:"is_recommend";s:1:"0";s:4:"rank";s:1:"0";s:9:"show_time";s:10:"1449813850";s:9:"old_price";s:2:"10";s:4:"type";s:1:"0";s:11:"category_id";s:1:"1";s:8:"imgs_url";a:1:{i:0;s:65:"http://haozhixian.cn/Uploads/Picture/2015-12-11/566a672331724.jpg";}}
+?>

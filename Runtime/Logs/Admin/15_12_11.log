@@ -1,0 +1,441 @@
+[ 2015-12-11T13:49:23+08:00 ] 111.207.1.186 /index.php?s=/Admin/Update/delcache.html
+NOTIC: [8] Undefined index: has_public /home/www/default/Application/Common/Common/function.php 第 1437 行.
+NOTIC: [8] Undefined index: uid /home/www/default/ThinkPHP/Library/Think/Controller.class.php 第 507 行.
+SQL: SELECT * FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: has_public /home/www/default/Application/Common/Common/function.php 第 1437 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: res /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 143 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `type` = 0  [ RunTime:0.0008s ]
+SQL: UPDATE `wp_attribute` SET `extra`='1:欢迎语
+2:自动回复
+3:自定义菜单
+4:微官网
+136:微信用户中心
+' WHERE `name` = 'addon_status' [ RunTime:0.0035s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Update/delcache%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: meta_title /home/www/default/Runtime/Cache/Admin/7448bc5b6c7ede42a8f022f98e8cc17b.php 第 5 行.
+SQL: SELECT * FROM `wp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wp_manager` [ RunTime:0.0018s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `wp_manager` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wp_public_follow` [ RunTime:0.0014s ]
+SQL: SELECT `openid`,`token` FROM `wp_public_follow` WHERE ( uid='1' )  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/UserModel.class.php 第 280 行.
+NOTIC: [8] Undefined index:  /home/www/default/Application/Common/Model/UserModel.class.php 第 293 行.
+NOTIC: [2] file_put_contents(./Runtime/Temp/default_931b5b3cad55d64c859ac8fe37543b59.php): failed to open stream: No such file or directory /home/www/default/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 137 行.
+SQL: SELECT * FROM `wp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `wp_manager` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0013s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`token` FROM `wp_public_follow` WHERE ( uid='1' )  [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/UserModel.class.php 第 280 行.
+NOTIC: [8] Undefined index:  /home/www/default/Application/Common/Model/UserModel.class.php 第 293 行.
+NOTIC: [2] file_put_contents(./Runtime/Temp/default_931b5b3cad55d64c859ac8fe37543b59.php): failed to open stream: No such file or directory /home/www/default/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-12-11T14:08:17+08:00 ] 111.207.1.186 /index.php?s=/Admin/Config/group.html
+NOTIC: [8] Undefined index: uid /home/www/default/ThinkPHP/Library/Think/Controller.class.php 第 507 行.
+SQL: SELECT * FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: res /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 143 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `type` = 0  [ RunTime:0.0007s ]
+SQL: UPDATE `wp_attribute` SET `extra`='1:欢迎语
+2:自动回复
+3:自定义菜单
+4:微官网
+136:微信用户中心
+' WHERE `name` = 'addon_status' [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `wp_config` WHERE `status` = 1 AND `group` = 1 ORDER BY sort  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-12-11T14:08:18+08:00 ] 111.207.1.186 /index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: uid /home/www/default/ThinkPHP/Library/Think/Controller.class.php 第 507 行.
+SQL: SELECT * FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: res /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 143 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `type` = 0  [ RunTime:0.0007s ]
+SQL: UPDATE `wp_attribute` SET `extra`='1:欢迎语
+2:自动回复
+3:自定义菜单
+4:微官网
+136:微信用户中心
+' WHERE `name` = 'addon_status' [ RunTime:0.0051s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2015-12-11T14:08:20+08:00 ] 111.207.1.186 /index.php?s=/Admin/Config/group/id/5.html
+NOTIC: [8] Undefined index: uid /home/www/default/ThinkPHP/Library/Think/Controller.class.php 第 507 行.
+SQL: SELECT * FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: res /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 143 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `type` = 0  [ RunTime:0.0006s ]
+SQL: UPDATE `wp_attribute` SET `extra`='1:欢迎语
+2:自动回复
+3:自定义菜单
+4:微官网
+136:微信用户中心
+' WHERE `name` = 'addon_status' [ RunTime:0.0033s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `wp_config` WHERE `status` = 1 AND `group` = 5 ORDER BY sort  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2015-12-11T14:08:20+08:00 ] 111.207.1.186 /index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Undefined index: uid /home/www/default/ThinkPHP/Library/Think/Controller.class.php 第 507 行.
+SQL: SELECT * FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: res /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 143 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `type` = 0  [ RunTime:0.0006s ]
+SQL: UPDATE `wp_attribute` SET `extra`='1:欢迎语
+2:自动回复
+3:自定义菜单
+4:微官网
+136:微信用户中心
+' WHERE `name` = 'addon_status' [ RunTime:0.0032s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-12-11T14:08:23+08:00 ] 111.207.1.186 /index.php?s=/Admin/Config/group/id/4.html
+NOTIC: [8] Undefined index: uid /home/www/default/ThinkPHP/Library/Think/Controller.class.php 第 507 行.
+SQL: SELECT * FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: res /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 143 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `type` = 0  [ RunTime:0.0006s ]
+SQL: UPDATE `wp_attribute` SET `extra`='1:欢迎语
+2:自动回复
+3:自定义菜单
+4:微官网
+136:微信用户中心
+' WHERE `name` = 'addon_status' [ RunTime:0.0031s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `wp_config` WHERE `status` = 1 AND `group` = 4 ORDER BY sort  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-12-11T14:08:24+08:00 ] 111.207.1.186 /index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined index: uid /home/www/default/ThinkPHP/Library/Think/Controller.class.php 第 507 行.
+SQL: SELECT * FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: res /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 143 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `type` = 0  [ RunTime:0.0006s ]
+SQL: UPDATE `wp_attribute` SET `extra`='1:欢迎语
+2:自动回复
+3:自定义菜单
+4:微官网
+136:微信用户中心
+' WHERE `name` = 'addon_status' [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-12-11T14:08:29+08:00 ] 111.207.1.186 /index.php?s=/Admin/Config/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: uid /home/www/default/ThinkPHP/Library/Think/Controller.class.php 第 507 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `type` = 0  [ RunTime:0.0008s ]
+SQL: UPDATE `wp_attribute` SET `extra`='1:欢迎语
+2:自动回复
+3:自定义菜单
+4:微官网
+136:微信用户中心
+' WHERE `name` = 'addon_status' [ RunTime:0.0035s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Config/save%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: UPDATE `wp_config` SET `value`='0' WHERE `name` = 'DEVELOP_MODE' [ RunTime:0.0007s ]
+SQL: UPDATE `wp_config` SET `value`='Home/User/*
+Home/Index/*
+home/weixin/*
+admin/File/*
+home/File/*
+home/Forum/*
+Home/Material/detail' WHERE `name` = 'ACCESS' [ RunTime:0.0006s ]
+SQL: UPDATE `wp_config` SET `value`='20150826' WHERE `name` = 'SYSTEM_UPDATRE_VERSION' [ RunTime:0.0006s ]
+SQL: UPDATE `wp_config` SET `value`='1' WHERE `name` = 'SHOW_PAGE_TRACE' [ RunTime:0.0006s ]
+SQL: UPDATE `wp_config` SET `value`='0:数字
+1:字符
+2:文本
+3:数组
+4:枚举' WHERE `name` = 'CONFIG_TYPE_LIST' [ RunTime:0.0007s ]
+SQL: UPDATE `wp_config` SET `value`='ambiance' WHERE `name` = 'CODEMIRROR_THEME' [ RunTime:0.0006s ]
+SQL: UPDATE `wp_config` SET `value`='1:基本
+3:用户
+4:系统
+5:站点' WHERE `name` = 'CONFIG_GROUP_LIST' [ RunTime:0.0006s ]
+SQL: UPDATE `wp_config` SET `value`='./Data/' WHERE `name` = 'DATA_BACKUP_PATH' [ RunTime:0.0006s ]
+SQL: UPDATE `wp_config` SET `value`='0' WHERE `name` = 'SYSTEM_UPDATE_REMIND' [ RunTime:0.0006s ]
+SQL: UPDATE `wp_config` SET `value`='1:视图
+2:控制器' WHERE `name` = 'HOOKS_TYPE' [ RunTime:0.0006s ]
+SQL: UPDATE `wp_config` SET `value`='20971520' WHERE `name` = 'DATA_BACKUP_PART_SIZE' [ RunTime:0.0007s ]
+SQL: UPDATE `wp_config` SET `value`='AUTH_ON:1
+AUTH_TYPE:2' WHERE `name` = 'AUTH_CONFIG' [ RunTime:0.0006s ]
+SQL: UPDATE `wp_config` SET `value`='1' WHERE `name` = 'DATA_BACKUP_COMPRESS' [ RunTime:0.0005s ]
+SQL: UPDATE `wp_config` SET `value`='20' WHERE `name` = 'LIST_ROWS' [ RunTime:0.0005s ]
+SQL: UPDATE `wp_config` SET `value`='9' WHERE `name` = 'DATA_BACKUP_COMPRESS_LEVEL' [ RunTime:0.0005s ]
+SQL: UPDATE `wp_config` SET `value`='' WHERE `name` = 'ADMIN_ALLOW_IP' [ RunTime:0.0005s ]
+
+[ 2015-12-11T14:08:33+08:00 ] 111.207.1.186 /index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: uid /home/www/default/ThinkPHP/Library/Think/Controller.class.php 第 507 行.
+SQL: SELECT * FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+NOTIC: [8] Undefined variable: addons /home/www/default/Application/Common/Common/function.php 第 473 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: res /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: core_side_menu /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/default/Application/Common/Model/ManagerMenuModel.class.php 第 143 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `type` = 0  [ RunTime:0.0006s ]
+SQL: UPDATE `wp_attribute` SET `extra`='1:欢迎语
+2:自动回复
+3:自定义菜单
+4:微官网
+136:微信用户中心
+' WHERE `name` = 'addon_status' [ RunTime:0.0033s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
