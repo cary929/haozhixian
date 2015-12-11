@@ -1540,6 +1540,9 @@ function OAuthWeixin($callback, $token = '') { // echo '444';
 		redirect ( $callback . 'openid=-2' );
 	}
 	$param ['appid'] = $info ['appid'];
+
+	trace(isset ( $_GET ['getOpenId']), "微信登陆认证::isset", 'user');
+	trace($param ['appid'], "微信登appid", 'user');
 	
 	if (! isset ( $_GET ['getOpenId'] )) {
 		$param ['redirect_uri'] = $callback . 'getOpenId=1';
@@ -1559,6 +1562,9 @@ function OAuthWeixin($callback, $token = '') { // echo '444';
 		$url = 'https://api.weixin.qq.com/sns/oauth2/access_token?' . http_build_query ( $param );
 		$content = file_get_contents ( $url );
 		$content = json_decode ( $content, true );
+
+		trace($url, "微信登陆认证", 'user');
+		trace($param ['appid'], "微信登appid", 'user');
 		//redirect ( $callback . 'openid=' . $content ['openid'] );
 	}
 }
