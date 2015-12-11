@@ -1548,7 +1548,7 @@ function OAuthWeixin($callback, $token = '') { // echo '444';
 		$param ['state'] = 123;
 		
 		$url = 'https://open.weixin.qq.com/connect/oauth2/authorize?' . http_build_query ( $param ) . '#wechat_redirect';
-		redirect ( $url );
+		//redirect ( $url );
 	} elseif ($_GET ['state']) {
 		$param ['secret'] = $info ['secret'];
 		$param ['code'] = I ( 'code' );
@@ -1557,7 +1557,7 @@ function OAuthWeixin($callback, $token = '') { // echo '444';
 		$url = 'https://api.weixin.qq.com/sns/oauth2/access_token?' . http_build_query ( $param );
 		$content = file_get_contents ( $url );
 		$content = json_decode ( $content, true );
-		redirect ( $callback . 'openid=' . $content ['openid'] );
+		//redirect ( $callback . 'openid=' . $content ['openid'] );
 	}
 }
 /**
