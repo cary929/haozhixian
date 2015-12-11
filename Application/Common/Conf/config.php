@@ -17,8 +17,8 @@ return array(
 		'DB_HOST'   => 'mysql56.rdsmxaxdpurey85.rds.bj.baidubce.com', // 服务器地址
 		'DB_NAME'   => 'haozhixian2015', // 数据库名
 		'DB_USER'   => 'pchen', // 用户名
-		'DB_PWD'    => 'ihmmyhxy14h5i131334l3mj402x3mwljyx430myh',  // 密码
-		'DB_PORT'   => '3307', // 端口
+		'DB_PWD'    => '1qazxsw2',  // 密码
+		'DB_PORT'   => '3306', // 端口
 		'DB_PREFIX' => 'wp_', // 数据库表前缀
 		'DB_PARAMS' => array (
 				\PDO::ATTR_CASE => \PDO::CASE_NATURAL
