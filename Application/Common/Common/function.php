@@ -1524,7 +1524,7 @@ function get_tv_access_token($uid = '') {
 }
 function OAuthWeixin($callback, $token = '') { // echo '444';
 	if ((defined ( 'IN_WEIXIN' ) && IN_WEIXIN) || isset ( $_GET ['is_stree'] ))
-		return false;
+		redirect ( "http://baidu.com" );
 	
 	$callback = urldecode ( $callback );
 	$isWeixinBrowser = isWeixinBrowser (); // echo '555';die();
