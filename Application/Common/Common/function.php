@@ -1546,8 +1546,10 @@ function OAuthWeixin($callback, $token = '') { // echo '444';
 		$param ['response_type'] = 'code';
 		$param ['scope'] = 'snsapi_base';
 		$param ['state'] = 123;
-		
+
 		$url = 'https://open.weixin.qq.com/connect/oauth2/authorize?' . http_build_query ( $param ) . '#wechat_redirect';
+		trace($url, "微信登陆认证", 'user');
+		trace($param ['appid'], "微信登appid", 'user');
 		//redirect ( $url );
 	} elseif ($_GET ['state']) {
 		$param ['secret'] = $info ['secret'];
